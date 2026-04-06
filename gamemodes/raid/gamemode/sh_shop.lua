@@ -1,5 +1,6 @@
 GM.Shop = {
 	["Weapons"] = {
+		{ "The Black Mark", "weapon_raid_blackmark", 10 },
 		{ "Painkiller", "weapon_raid_painkiller", 25 },
 		{ "City Of Fear", "weapon_raid_cityoffear", 35 },
 		{ "Hosepipe", "weapon_raid_hosepipe", 50 },
@@ -14,7 +15,7 @@ GM.Shop = {
 		{ "RPG", "weapon_rpg", 100 },
 		{ "Grenade", "weapon_frag", 20, true },
 		{ "Bugbait", "weapon_bugbait", 10, true },
-	},  { "TheBlackMark" , "weapon_raid_blackmark", 10 },
+	},  
 	["Ammo"] = {
 		{ "Pistol", "item_ammo_pistol", 5 },
 		{ "Pistol x5", "item_ammo_pistol_large", 25 },
