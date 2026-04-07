@@ -5,7 +5,7 @@ SWEP.PrintName		= "Son Of Liberty" -- 'Nice' Weapon name (Shown on HUD)
 SWEP.Author			= ""
 SWEP.Contact		= ""
 SWEP.Purpose		= ""
-SWEP.Instructions	= "A real rottish rifle."
+SWEP.Instructions	= "A REAL rottish rifle."
 
 SWEP.ViewModelFOV	= 62
 SWEP.ViewModelFlip	= false
