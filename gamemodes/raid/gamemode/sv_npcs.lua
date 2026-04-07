@@ -16,6 +16,13 @@ GM.EnemyTypes = {
         },
         ["raidman_smg"] = {
             ["NPC"] = "raidman",
+            ["Models"] = {
+                "models/liver_failure/liverish/liverish.mdl",
+                "models/liver_failure/smoothskin/smoothskin.mdl",
+                "models/liver_failure/dementia/dementia.mdl",
+                "models/liver_failure/kidneystani/kidneystani.mdl",
+            }
+
             ["Weight"] = 6,
             ["Price"] = 0.6,
             ["Reward"] = 8,
@@ -25,6 +32,12 @@ GM.EnemyTypes = {
         },
         ["raidman_shotgun"] = {
             ["NPC"] = "raidman",
+            ["Models"] = {
+                "models/liver_failure/liverish/liverish.mdl",
+                "models/liver_failure/smoothskin/smoothskin.mdl",
+                "models/liver_failure/dementia/dementia.mdl",
+                "models/liver_failure/kidneystani/kidneystani.mdl",
+            }
             ["Weight"] = 3,
             ["Price"] = 0.8,
             ["Reward"] = 10,
@@ -34,6 +47,12 @@ GM.EnemyTypes = {
         },
         ["raidmedic_pistol"] = {
             ["NPC"] = "raidman",
+            ["Models"] = {
+                "models/liver_failure/liverish/liverish.mdl",
+                "models/liver_failure/smoothskin/smoothskin.mdl",
+                "models/liver_failure/dementia/dementia.mdl",
+                "models/liver_failure/kidneystani/kidneystani.mdl",
+            }
             ["Weight"] = 2,
             ["Price"] = 0.3,
             ["Reward"] = 10,
@@ -43,7 +62,9 @@ GM.EnemyTypes = {
         },
         ["soldier_shotgun"] = {
             ["NPC"] = "raidman",
-            ["Models"] = {"models/combine_super_soldier_mi.mdl", "models/sligwolf/rustyer/combine/rustyer_combine.mdl"},
+            ["CustomModel"] = [
+                ["Model"] = "models/player/crusader.mdl"
+            ]
             ["Weight"] = 3,
             ["Price"] = 1.5,
             ["Reward"] = 50,
@@ -180,9 +201,17 @@ GM.EnemyTypes = {
             ["NPC"] = "npc_combine_s",
             ["Weapon"] = "weapon_ar2",
             ["Weight"] = 2,
+            ["CustomModel"] = {
+                ["Model"] = "models/liver_failure/liverish/liverish.mdl", 
+                ["Skin"] = 18, 
+                ["Bodygroups"] = { 
+                    [2] = 12,
+                    [3] = 1,
+                }
+            }   
             ["Price"] = 1.5,
             ["Reward"] = 23,
-            ["CustomModel"] = "models/sligwolf/rustyer/combine/rustyer_combine.mdl",
+            ["CustomModel"] = "",
             ["DamageScale"] = 1.6,
             ["HealthScale"] = 2,
             ["Grenades"] = 3,
@@ -243,4 +272,4 @@ GM.EnemyTypes = {
             ["DamageScale"] = 2.5,
         },
     },
-};
+    }
