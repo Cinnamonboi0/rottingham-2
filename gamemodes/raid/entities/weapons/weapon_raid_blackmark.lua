@@ -10,6 +10,7 @@ SWEP.Instructions	= ""
 SWEP.ViewModelFOV	= 62
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel		= "models/weapons/w_blackmark.mdl"
+SWEP.UseHands = true
 SWEP.WorldModel		= "models/weapons/w_blackmark.mdl"
 SWEP.HoldType		= "pistol"
 
@@ -25,6 +26,13 @@ SWEP.Primary.Sound			= "tekka/weapons/weapon_blat.wav"
 SWEP.Primary.Delay			= 0.2
 SWEP.Primary.NumBullets		= 1
 SWEP.Primary.Accuracy		= 0.03
+SWEP.Primary.Aimcone		= 0.01
+
+
+SWEP.Secondary.ClipSize		= -1
+SWEP.Secondary.DefaultClip	= -1
+SWEP.Secondary.Automatic	= false
+SWEP.Secondary.Ammo		= "none"
 
 --[[---------------------------------------------------------
 	Name: SWEP:Initialize()
