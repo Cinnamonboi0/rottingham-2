@@ -19,19 +19,15 @@ SWEP.AdminOnly		= false
 
 SWEP.Primary.ClipSize		= 30			-- Size of a clip
 SWEP.Primary.DefaultClip	= 30		-- Default number of bullets in a clip
-SWEP.Primary.Automatic		= true		-- Automatic/Semi Auto
+SWEP.Primary.Automatic		= false		-- Automatic/Semi Auto
 SWEP.Primary.Ammo			= "pistol"
 SWEP.Primary.Damage			= 10
 SWEP.Primary.Sound			= "tekka/weapons/weapon_pistolsmall.wav"
-SWEP.Primary.Delay			= 0.1
-SWEP.Primary.NumBullets		= 6
+SWEP.Primary.Delay			= 0.15
+SWEP.Primary.NumBullets		= 1
 SWEP.Primary.Accuracy		= 0.27
 SWEP.Primary.Aimcone		= 0.8
 
-SWEP.Secondary.ClipSize		= -1
-SWEP.Secondary.DefaultClip	= -1
-SWEP.Secondary.Automatic	= false
-SWEP.Secondary.Ammo		= "none"
 
 
 --[[---------------------------------------------------------

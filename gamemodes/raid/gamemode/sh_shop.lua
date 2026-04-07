@@ -1,5 +1,6 @@
 GM.Shop = {
 	["Weapons"] = {
+		{ "Professional", "weapon_raid_professional", 90 },
 		{ "Whore House", "weapon_raid_whorehouse", 25 },
 		{ "Son Of Liberty", "weapon_raid_sonofliberty", 150 },
 		{ "The Black Mark", "weapon_raid_blackmark", 10 },
@@ -10,7 +11,6 @@ GM.Shop = {
 		{ "Lubov", "weapon_raid_autoshotgun", 80 },
 		{ "Bird Flu", "weapon_raid_birdflu", 40 },
 		{ "Medkit", "weapon_medkit", 75 },
-		{ "The Professional", "weapon_raid_professional", 90 },
 		{ "Gravgun", "weapon_physcannon", 100 },
 		{ "Owler", "weapon_raid_owler" , 30},
 		{ "Sauerkraut", "weapon_raid_sauerkraut", 100 },
